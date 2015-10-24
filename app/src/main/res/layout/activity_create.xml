@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nckuesnclab.daniel.cloud_white_board.CreateActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutCreate"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_black"
+                android:id="@+id/buttonBlack" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_red"
+                android:id="@+id/buttonRed" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_blue"
+                android:id="@+id/buttonBlue" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_eraser"
+                android:id="@+id/buttonEraser" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_clear"
+                android:id="@+id/buttonClear" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/enable_write"
+                android:id="@+id/buttonEnableWrite" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_room"
+                android:id="@+id/buttonInformation" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

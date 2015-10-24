@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nckuesnclab.daniel.cloud_white_board.JoinActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutJoin"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_black"
+                android:id="@+id/buttonBlackJoin" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_red"
+                android:id="@+id/buttonRedJoin" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_blue"
+                android:id="@+id/buttonBlueJoin" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_eraser"
+                android:id="@+id/buttonEraserJoin" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_clear"
+                android:id="@+id/buttonClearJoin" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_camera"
+                android:id="@+id/buttonScreenShotJoin" />
+
+            <Button
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:background="@drawable/button_room"
+                android:id="@+id/buttonInformationJoin" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
